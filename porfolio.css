@@ -1276,8 +1276,12 @@ opacity: 1;
   justify-content: center;
   place-items: center;
 }
+
 .review img{
-  width: 30%;
+  width: 25%;
+  height: 10vh;
+  border-radius:50%;
+}
 }
 .review h1{
   font-size: var(---mqmidfontS);
