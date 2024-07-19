@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styles -->
+  <link rel="stylesheet" href="porfolio.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;800;900&family=Reddit+Mono:wght@200..900&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  
+    <!-- title -->
+  <title>my portfolio</title>
+</head>
+<body>
+
+     <!-- LOADING ANAMATION starts -->
+  <div class="loader">
+    <img src="images/page-loader.gif" alt="">
+  </div>    
+     <!-- LOADING ANAMATION ends -->
+
+
+     <!-- NAVIGATION -->
+
+  <nav class="nav">
+    <label  class="logo">Adeshina</label>
+    <div class="bars">
+      <i class="fa fa-bars" id="bar"></i>
+      <i class="fa fa-times" id="times"></i>
+    </div>
+    <ul>
+      <li><a href="#home" class="active">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#services">services</a></li>
+      <li><a href="#portfolio">portfolio</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+      <!-- HER0-SECTION -->
+
+  <section class="hero-section" id="home">
+    <div class="hero_section-cont">
+      <!-- Hero-text starts here -->
+      <article class="hero-text">
+        <h4>software developer</h4>
+        <h1>Hi, I'm <span>Adeshina Bhadmus</span></h1>
+        <h6>I am a <span>web designer</span></h6>
+        <p>
+          My design philosophy is centered around simplicity,clarity,and user-centered design.
+        </p>
+        <div class="icons">
+          <a href="https://x.com/AdeshinaBh8096"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/adeshinayomi54/"><i class="fa fa-instagram"></i></a>
+          <!-- <a href=""><i class="fa fa-linkedin"></i></a>  -->
+          <a href="https://wa.me/08161732681"><i class="fa fa-whatsapp"></i></a> 
+          <a href="https://web.facebook.com/mal.eeq.7923"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="buttons">
+          <button>Download CV</button><a href="#contact"><button>Hire me</button></a>
+        </div>
+      </article>
+            <!-- Hero-text starts here -->
+
+           <!-- my image  -->
+      <div class="img">
+        <img src="images/img9.png" alt="">
+      </div>
+    </div>
+  </section>
+
+      <!-- ABOUT-ME SECTION -->
+
+  <section class="about" id="about">
+    <!-- about section headings -->
+      <span class="smal-header">-----intro-----</span>
+      <h1>About</h1>
+      <!-- ends -->
+    <div class="about-cont fade-in">
+      <div class="about-img ">
+        <img src="images/PSX_20240710_154523.png" alt="">
+      </div>
+        <!-- about details starts here -->
+      <div class="about-text" >
+        <h1>About me</h1>
+        <p>
+          i am a passionate web designer with love for creating beutiful and functional digital experience, with 2 years of experiencein the industry.i have helped numerous clients bring vision to life.
+        </p>
+        <br>
+        <article class="more-about">
+          <div class="abt-btn">
+            <button class="btn active-btn" id="Expertise">Expertise</button>
+            <button class="btn" id="Education">Education</button>
+          </div>
+          <div class="Education" id="Education">
+            <ul>
+              <li>Diploma in website design</li>
+              <li>Diploma in grapic design</li>
+              <li>Bsc in computer science</li>
+            </ul>
+         </div>
+         <div class="Expertise"  id="Expertise">
+          <ul>
+            <li>Responsive design</li>
+            <li>Frontend development(html,css,javascript)</li>
+            <li>Web design</li>
+          </ul>
+       </div>
+        </article>
+      </div>
+    </div>
+     <!-- about details starts here -->
+  </section>
+
+     <!-- SKILLS -->
+
+  <section class="skills">
+    <span class="smal-header">-----skills-----</span>
+    <h1>skills</h1>
+    <article class="skills-cont">
+      <div class="skill">
+        <p>HTML</p>
+        <p class="level" id="html"></p>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <p class="level" id="css"></p>
+      </div>
+      <div class="skill">
+        <p>JAVASCRIPT</p>
+        <p class="level" id="java"></p>
+      </div>
+    </article>
+  </section>
+
+      <!-- SERVICES -->
+
+  <section class="services" id="services">
+    <span class="smal-header">-----services-----</span>
+    <h1>what i do</h1>
+    <div class="services-container ">
+      <div class="services-cont fade-in">
+        <i class="fa fa-code"></i>
+        <h1>web design</h1>
+        <p>
+          i create beutiful websites that are interactive and user friendly.It is what i do best
+        </p>
+      </div>
+      <div class="services-cont fade-in">
+        <i class="fa fa-laptop"></i>
+        <h1>UI/UX design</h1>
+        <p>
+          i design website templates with so so so and make quality desihns through this for clients.
+        </p>
+      </div>
+      <div class="services-cont fade-in">
+        <i class="fa fa-mobile"></i>
+        <h1>App development</h1>
+        <p>
+         i help with app creations and great user-interface for clients.
+        </p>
+      </div>
+    </div>
+  </section>
+
+      <!-- PORTFOLIO -->
+
+  <section class="portfolio" id="portfolio">
+    <span class="smal-header">-----my works-----</span>
+    <h1>PORTFOLIO</h1>
+    <div class="portfolio-cont fade-in">
+      <div class="first-grid">
+        <div class="img1">
+          <img src="images/Rg-img.png" alt="">
+          <div class="portfolio-text">
+            <p>Real estate website</p>
+            <span><a href="https://adeshinayomi.github.io/RoyalGlobal/royalglobal.html">preview</a></span>
+          </div>
+        </div>
+        <div class="img2">
+          <img src="images/index-img.png" alt="">
+          <div class="portfolio-text">
+            <p>landing page template</p>
+            <span><a href="https://adeshinayomi.github.io/template-web/index.html">preview</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="sec-grid">
+        <div class="img3">    
+          <img src="images/Ewebal-img.png" alt="">
+          <div class="portfolio-text">
+            <p>Education instute website</p>
+            <span><a href="https://adeshinayomi.github.io/ewebalinstitute/finalproject.html">preview</a></span>
+          </div>
+        </div>
+        <div class="img4">
+          <img src="images/trmplate1-img.png" alt="">
+          <div class="portfolio-text">
+            <p>template design</p>
+            <span><a href="https://adeshinayomi.github.io/maleek/template.html">preview</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- REVIEWS -->
+
+  <section>
+    <div class="testimony">
+      <span class="smal-header">-----reviews-----</span>
+      <h1>testimonies</h1>
+        <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="review">
+          <img src="images/review-img3.jpg" alt="">
+          <h1>faith jhonson</h1>
+          <p>
+            Working with Adeshina was great experience, he creates good user friendly websites and also communicates well, I love what he does i will recommend him.
+          </p>
+       </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="review">
+          <img src="images/review-img2.jpg" alt="">
+          <h1>dolapo animashaun</h1>
+          <p>
+            great personality and good web designer.seamless communnication and good job etiqutte. I recommend him.
+          </p>
+       </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="review">
+          <img src="images/review-img.jpg" alt="">
+          <h1>adebowale rasak</h1>
+          <p> 
+            it was great experience working with Adeshina, he communicates well and help in providing ideas also.He is good at what he does.
+          </p>
+       </div>
+      </div>
+      <!-- ... -->
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+  </section>
+  
+    <!-- CONTACT SECTION -->
+
+  <section class="contact" id="contact">
+    <span class="smal-header">-----contact-----</span>
+    <h1>Let's connect</h1>
+    <form action="">
+      <div class="form-cont">
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <input type="email" placeholder="Email address">
+        <input type="phone" placeholder="Phone">
+      </div>
+      <textarea placeholder="send me a message" cols="4" rows="10" id=""></textarea>
+      <button>message</button>
+    </form>
+  </section>
+
+    <!-- FOOTER -->
+
+  <footer>
+    <div class="info">
+      <p>
+        <i class="fa fa-copyright"></i>
+        copyright 2023 design by Maleek_27
+      </p>
+      <div class="footer-icons">
+        <a href="https://x.com/AdeshinaBh8096"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/adeshinayomi54/"><i class="fa fa-instagram"></i></a>
+        <!-- <a href=""><i class="fa fa-linkedin"></i></a>  -->
+        <a href="https://wa.me/08161732681"><i class="fa fa-whatsapp"></i></a> 
+        <a href="https://web.facebook.com/mal.eeq.7923"><i class="fa fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+    
+    <!-- ANGLE-UP BTN -->
+   
+  <div class="angle-up" id="angleup">
+   <a href="#home"><i class="fa fa-angle-up"></i></a></i>
+  </div>
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="porfolio.js"></script>
+
+</body>
+</html>
